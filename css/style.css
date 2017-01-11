@@ -16,6 +16,15 @@ p {
 p.small {
   font-size: 16px;
 }
+p.about-me {
+  font-size: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #000000;
+  padding: 70px;
+}
+p.p-portfolio {
+  padding: 30px;
+}
 a,
 a:hover,
 a:focus,
@@ -33,6 +42,9 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+h2.about-me {
+  color: #000000;
 }
 hr {
 	border-top: 2px solid #828282;
@@ -61,7 +73,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #FFD700;
   color: white;
 }
 hr.star-primary {
@@ -74,10 +86,15 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
+.img-in-portfolio {
+  width: 400px;
+  height: 300px;
+}
 header {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-color: #FFD700;
   text-align: center;
-  background: #18BC9C;
-  color: white;
 }
 header .container {
   padding-top: 100px;
@@ -193,7 +210,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #fff;
   color: white;
 }
 @media (max-width: 767px) {
@@ -254,7 +271,7 @@ section.success {
 }
 .devicon {
  display: flex;
- flex-direction: row;
+ flex-direction: row wrap;
  justify-content: space-around;
 }
 .floating-label-form-group {
@@ -324,9 +341,9 @@ footer .footer-below {
   background-color: #233140;
 }
 .btn-outline {
-  color: white;
+  color: black;
   font-size: 20px;
-  border: solid 2px white;
+  border: solid 2px black;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
