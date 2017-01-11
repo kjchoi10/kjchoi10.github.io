@@ -18,7 +18,12 @@ p.small {
 }
 p.about-me {
   font-size: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #000000;
+  padding: 70px;
+}
+p.p-portfolio {
+  padding: 30px;
 }
 a,
 a:hover,
@@ -82,7 +87,8 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 .img-in-portfolio {
-  border: 5px solid #021a40;
+  width: 400px;
+  height: 300px;
 }
 header {
   -webkit-background-size: cover;
