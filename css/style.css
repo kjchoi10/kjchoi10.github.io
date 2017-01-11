@@ -258,7 +258,7 @@ section.success {
 }
 .devicon {
  display: flex;
- flex-direction: row;
+ flex-direction: row wrap;
  justify-content: space-around;
 }
 .floating-label-form-group {
